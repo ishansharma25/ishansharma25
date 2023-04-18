@@ -333,7 +333,7 @@ label1.config(font=("Courier", 20))
 var.set('Welcome')
 label1.pack()
 
-frames = [PhotoImage(file='C:\\Users\\ishan\\OneDrive\\Desktop\\project\\a.gif',format = 'gif -index %i' %(i)) for i in range(20)]
+frames = [PhotoImage(file='a.gif',format = 'gif -index %i' %(i)) for i in range(20)]
 window.title('JARVIS')
 
 label = Label(window, width = 500, height = 500)
