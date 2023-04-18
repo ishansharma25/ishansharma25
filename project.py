@@ -212,9 +212,9 @@ def play():
             speak("Sending"+text)
             pywhatkit.sendwhatmsg(f"+91{7340737262}","Hello World",18,55)
 
-        elif "who made you" in query or "who created you" in query or "who discovered you" in query:
-            speak("I was built by Sir Tribhuvan Chawla")
-            print("I was built by Sir Tribhuvan Chawla")
+        # elif "who made you" in query or "who created you" in query or "who discovered you" in query:
+        #     speak("I was built by Sir Tribhuvan Chawla")
+        #     print("I was built by Sir Tribhuvan Chawla")
 
         elif "weather" in query:
             api_key="bf818c7d471f4500226a49822097b9c8"
@@ -254,43 +254,43 @@ def play():
             speak('okay')
             webbrowser.open('https://meet.google.com//landing?authuser=1//')
 
-        elif "notepad" in query:
-            npath = "C:\\ProgramData\\Microsoft\Windows\\Start Menu\\Programs\\Accessories\\Notepad"
-            os.startfile(npath)
+        # elif "notepad" in query:
+        #     npath = "C:\\ProgramData\\Microsoft\Windows\\Start Menu\\Programs\\Accessories\\Notepad"
+        #     os.startfile(npath)
 
-        elif "spotify" in query:
-            qpath = "C:\\Users\\DELL\\AppData\\Roaming\\Spotify\\Spotify.exe"
-            os.startfile(qpath)
+        # elif "spotify" in query:
+        #     qpath = "C:\\Users\\DELL\\AppData\\Roaming\\Spotify\\Spotify.exe"
+        #     os.startfile(qpath)
 
-        elif "document" in query:
-            dpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Word"
-            os.startfile(dpath)
+        # elif "document" in query:
+        #     dpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Word"
+        #     os.startfile(dpath)
 
-        elif "spreadsheet" in query:
-            spath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Excel"
-            os.startfile(spath)
+        # elif "spreadsheet" in query:
+        #     spath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Excel"
+        #     os.startfile(spath)
 
-        elif "presentation" in query:
-            ppath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\PowerPoint"
-            os.startfile(ppath)
+        # elif "presentation" in query:
+        #     ppath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\PowerPoint"
+        #     os.startfile(ppath)
 
-        elif "settings" in query:
-            gpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Settings"
-            os.startfile(gpath)
+        # elif "settings" in query:
+        #     gpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Settings"
+        #     os.startfile(gpath)
 
-        elif "chrome" in query:
-            cpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome"
-            os.startfile(cpath)
+        # elif "chrome" in query:
+        #     cpath = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Google Chrome"
+        #     os.startfile(cpath)
 
-        elif "code" in query:
-            vpath = "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code"
-            os.startfile(vpath)
+        # elif "code" in query:
+        #     vpath = "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code\\Visual Studio Code"
+        #     os.startfile(vpath)
 
-        elif "message" in query:
-            mpath = "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\WhatsApp\\WhatsApp"
-            os.startfile(mpath)
+        # elif "message" in query:
+        #     mpath = "C:\\Users\\DELL\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\WhatsApp\\WhatsApp"
+        #     os.startfile(mpath)
 
-        elif"crack a joke" in query:
+        elif "crack a joke" in query:
             joke = pyjokes.get_joke()
             
             speak(joke)
