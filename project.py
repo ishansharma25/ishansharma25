@@ -1,6 +1,6 @@
 from tkinter import *
 from currency_converter import CurrencyConverter as p
-import PIL.Image, PIL.ImageTk
+from PIL import Image, ImageTk
 import pyttsx3
 import datetime
 import speech_recognition as sr
@@ -318,10 +318,10 @@ def play():
                 
 
 def update(ind):
-    frame = frames[(ind)%100]
+    frame = frames[(ind)%20]
     ind += 1
     label.configure(image=frame)
-    window.after(100, update, ind)
+    window.after(20, update, ind)
 
 label2 = Label(window, textvariable = var1, bg = '#FAB60C')
 label2.config(font=("Courier", 20))
@@ -333,7 +333,7 @@ label1.config(font=("Courier", 20))
 var.set('Welcome')
 label1.pack()
 
-frames = [PhotoImage(file='C:\\Users\\DELL\\Downloads\\assist.gif',format = 'gif -index %i' %(i)) for i in range(100)]
+frames = [PhotoImage(file='C:\\Users\\ishan\\OneDrive\\Desktop\\project\\a.gif',format = 'gif -index %i' %(i)) for i in range(20)]
 window.title('JARVIS')
 
 label = Label(window, width = 500, height = 500)
