@@ -9,14 +9,11 @@ import webbrowser
 import os
 import random
 
-
-
 import wikipedia
 
 import wolframalpha
 
-
-#import time
+import time
 
 import requests
 
@@ -69,18 +66,19 @@ def wishme():
 
 def takeCommand():
     r = sr.Recognizer()
-    with sr.Microphone() as source:
-        var.set("Listening...")
-        window.update()
-        print("Listening...")
-        r.pause_threshold = 1
-        r.energy_threshold = 120
-        audio = r.listen(source)
     try:
-        var.set("Recognizing...")
-        window.update()
-        print("Recognizing")
-        query = r.recognize_google(audio, language='en-in')
+        with sr.Microphone() as source2:
+            var.set("Listening...")
+            window.update()
+            print("Listening...")
+            # r.pause_threshold = 0.4
+            # r.energy_threshold = 400
+            r.adjust_for_ambient_noise(source2,duration=1)
+            audio = r.listen(source2)
+            var.set("Recognizing...")
+            window.update()
+            print("Recognizing")
+            query = r.recognize_google(audio, language='en-in')
     except Exception as e:
         return "None"
     var1.set(query)
