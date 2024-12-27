@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Ishan+Sharma;AI%2FML+Enthusiast;Computer+Science+Student;Always+Learning+New+Things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=435&lines=Hi+there%2C+I'm+Ishan+Sharma;Web+Developer;Computer+Science+Student;Always+Learning+New+Things" alt="Typing SVG" />
 </div>
 
 <h3 align="center">Computer Science Undergrad @ TIET'25</h3>
