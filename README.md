@@ -23,25 +23,37 @@ class AboutMe:
         }
 ```
 
+<h3 align="center">🛠️ Technical Arsenal</h3>
+
+<div align="center">
+
+| Category | Technologies |
+|----------|-------------|
+| Languages | <img src="https://img.shields.io/badge/PYTHON-1A1B27?style=for-the-badge&logo=python&logoColor=3776AB"/> <img src="https://img.shields.io/badge/C++-1A1B27?style=for-the-badge&logo=c%2B%2B&logoColor=00599C"/> <img src="https://img.shields.io/badge/SQL-1A1B27?style=for-the-badge&logo=mysql&logoColor=4479A1"/> |
+| ML/AI | <img src="https://img.shields.io/badge/TENSORFLOW-1A1B27?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/> <img src="https://img.shields.io/badge/PYTORCH-1A1B27?style=for-the-badge&logo=pytorch&logoColor=EE4C2C"/> <img src="https://img.shields.io/badge/SCIKIT_LEARN-1A1B27?style=for-the-badge&logo=scikit-learn&logoColor=F7931E"/> |
+| Tools | <img src="https://img.shields.io/badge/PANDAS-1A1B27?style=for-the-badge&logo=pandas&logoColor=150458"/> <img src="https://img.shields.io/badge/SEABORN-1A1B27?style=for-the-badge&logo=python&logoColor=150458"/> |
+
+</div>
+
+<h3 align="center">🌐 Languages I Speak</h3>
+
+<div align="center">
+
+| Language | Proficiency |
+|----------|------------|
+| Malayalam | Native 🏠 |
+| English | Professional 💼 |
+| Hindi | Professional 💼 |
+| Kannada | Working 📚 |
+
+</div>
+
 ### 🚀 Featured Projects
 
 <div align="center">
 
 [![Test Vision AI](https://github-readme-stats.vercel.app/api/pin/?username=ishansharma25&repo=test-vision-ai&theme=github_dark)](https://github.com/ishansharma25/test-vision-ai)
 [![Lace-Trace](https://github-readme-stats.vercel.app/api/pin/?username=ishansharma25&repo=lace-trace&theme=github_dark)](https://github.com/ishansharma25/lace-trace)
-
-</div>
-
-### 💻 Tech Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
